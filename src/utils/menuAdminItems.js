@@ -22,36 +22,13 @@ const menuItems = [
     label: 'Dashboard',
   },
   {
-    key: 'Pemsun',
-    icon: <ReadOutlined />, // Icono de libro para representar cursos y temas
-    label: 'Pensum',
-    children: [
-      {
-        key: '/admin/cursos',
-        label: 'Cursos',
-      },
-      {
-        key: '/admin/topics',
-        label: 'Temas Cursos',
-      },
-    ],
-  },
-  {
     key: '/admin/post',
     icon: <FileTextOutlined />, // Icono para representar publicaciones o posts
     label: 'Post',
     children: [
       {
-        key: '/admin/post/mis-posts',
-        label: 'Mis Post',
-      },
-      {
         key: '/admin/views/viewPost',
         label: 'Post Visibles',
-      },
-      {
-        key: '/admin/pending/postspendient',
-        label: 'Post Pendientes',
       },
       {
         key: '/admin/post',
@@ -66,61 +43,12 @@ const menuItems = [
         label: 'Publicar Noticias',
       },
       {
-        key: '/admin/pending/newspendient',
-        label: 'Noticias Pendientes',
-      },
-      {
         key: '/admin/views/viewEvents',
         label: 'Eventos',
       },
       {
         key: '/admin/post/events',
         label: 'Publicar Eventos',
-      },
-      {
-        key: '/admin/pending/eventspendient',
-        label: 'Eventos Pendientes',
-      },
-    ],
-  },
-  {
-    key: '/admin/categories',
-    icon: <TagsOutlined />, // Icono de etiquetas para representar categorías
-    label: 'Categorias',
-    children: [
-      {
-        key: '/admin/categories/post',
-        label: 'Categorias Post',
-      },
-      {
-        key: '/admin/categories/news',
-        label: 'Categoria Noticias',
-      },
-      {
-        key: '/admin/categories/events',
-        label: 'Categoria Eventos',
-      },
-    ],
-  },
-  {
-    key: '/admin/profesor',
-    icon: <TeamOutlined />, // Icono para representar el equipo o catedráticos
-    label: 'Equipo',
-    children: [
-      {
-        key: '/admin/profesor',
-        label: 'Catedráticos',
-      }
-    ],
-  },
-  {
-    key: '/admin/students',
-    icon: <UsergroupAddOutlined />, // Icono de grupo para representar estudiantes
-    label: 'Estudiantes',
-    children: [
-      {
-        key: '/admin/students',
-        label: 'Lista de Estudiantes',
       },
     ],
   },
